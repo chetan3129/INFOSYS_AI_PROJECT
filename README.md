@@ -36,8 +36,6 @@ This project develops an **AI-driven system** to enhance guest experiences in th
 ✅ Fully integrated UI & feedback system  
 
 
----
-
 ## Technologies Used
 - **Programming Language:** Python
 - **Data Storage:** MongoDB
@@ -47,23 +45,12 @@ This project develops an **AI-driven system** to enhance guest experiences in th
 - **Sentiment Analysis:** TextBlob
 - **Data Manipulation:** Pandas
 
----
-
 ## Installation
 ### Prerequisites
 Ensure you have Python installed. Install the required dependencies using:
 ```bash
 pip install pymongo pandas xgboost scikit-learn joblib matplotlib streamlit openpyxl textblob plotly wordcloud
 ```
-
----
-
-
-## Configuration
-- **MongoDB Connection:** Update the connection string in each module to connect to your MongoDB instance.
-- **Email Alerts:** Configure `sender_email` and `sender_password` in Module 3 for email functionality.
-- **File Paths:** Ensure file paths for Excel files (`dining_info.xlsx`, `reviews_data.xlsx`) are correct.
-
 
 
 ## Summary
