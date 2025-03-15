@@ -34,3 +34,37 @@ This project develops an **AI-driven system** to enhance guest experiences in th
 ✅ Sentiment analysis accuracy ≥90%  
 ✅ Real-time notification within 5 minutes  
 ✅ Fully integrated UI & feedback system  
+
+
+---
+
+## Technologies Used
+- **Programming Language:** Python
+- **Data Storage:** MongoDB
+- **Machine Learning:** XGBoost, Scikit-learn
+- **Visualization:** Plotly, Matplotlib, WordCloud
+- **Web Framework:** Streamlit
+- **Sentiment Analysis:** TextBlob
+- **Data Manipulation:** Pandas
+
+---
+
+## Installation
+### Prerequisites
+Ensure you have Python installed. Install the required dependencies using:
+```bash
+pip install pymongo pandas xgboost scikit-learn joblib matplotlib streamlit openpyxl textblob plotly wordcloud
+```
+
+---
+
+
+## Configuration
+- **MongoDB Connection:** Update the connection string in each module to connect to your MongoDB instance.
+- **Email Alerts:** Configure `sender_email` and `sender_password` in Module 3 for email functionality.
+- **File Paths:** Ensure file paths for Excel files (`dining_info.xlsx`, `reviews_data.xlsx`) are correct.
+
+
+
+## Summary
+This system leverages **AI and data analytics** to transform guest experiences in the hospitality industry. By combining **predictive modeling**, **real-time feedback**, and **interactive dashboards**, it enables hotels to deliver personalized services, optimize operations, and improve customer satisfaction.
